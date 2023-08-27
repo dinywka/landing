@@ -1,0 +1,36 @@
+{% extends "components/base.html" %} {% block main %}
+
+<section class="bg-gray-50">
+  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+    <div class="max-w-3xl">
+      <h2 class="text-3xl font-bold sm:text-4xl">
+        Профессиональные IT-решения для вашего бизнеса
+      </h2>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+      <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+        <img
+          alt="Серверная комната"
+          src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What-is-Six-Sigma_A-Complete-Overview.jpg"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+      </div>
+
+      <div class="lg:py-16">
+        <article class="space-y-4 text-gray-600">
+          <p>
+            Наша IT-компания предоставляет высококачественные услуги в сфере разработки, администрирования и обслуживания IT-систем.
+          </p>
+
+          <p>
+            Мы фокусируемся на инновациях и используем передовые технологии для достижения ваших бизнес-целей. Наша команда профессионалов готова решить любые задачи, связанные с IT, чтобы ваш бизнес работал еще эффективнее.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock main %}

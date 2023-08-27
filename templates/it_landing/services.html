@@ -1,0 +1,55 @@
+{% extends "components/base.html" %}
+{% block main %}
+
+<section class="bg-gray-900 text-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+    <div class="mx-auto max-w-lg text-center">
+      <h2 class="text-3xl font-bold sm:text-4xl">Запустите свой IT-проект</h2>
+
+      <p class="mt-4 text-gray-300">
+        Профессиональные решения для вашего бизнеса, обеспечивающие высокое качество и надежность.
+      </p>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Услуга 1: Разработка веб-сайтов -->
+      <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10" href="/services/web-development">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" ...>...</svg>
+        <h2 class="mt-4 text-xl font-bold text-white">Разработка веб-сайтов</h2>
+        <p class="mt-1 text-sm text-gray-300">
+          Создание современных и адаптивных сайтов, оптимизированных для поисковых систем.
+        </p>
+      </a>
+
+      <!-- Услуга 2: Мобильная разработка -->
+      <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10" href="/services/mobile-development">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" ...>...</svg>
+        <h2 class="mt-4 text-xl font-bold text-white">Мобильная разработка</h2>
+        <p class="mt-1 text-sm text-gray-300">
+          Разработка нативных и кросс-платформенных приложений для iOS и Android.
+        </p>
+      </a>
+
+      <!-- Услуга 3: Облачные решения -->
+      <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10" href="/services/cloud-solutions">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" ...>...</svg>
+        <h2 class="mt-4 text-xl font-bold text-white">Облачные решения</h2>
+        <p class="mt-1 text-sm text-gray-300">
+          Интеграция и внедрение облачных технологий для оптимизации вашего бизнеса.
+        </p>
+      </a>
+
+        <!-- Услуга 4: IT-консалтинг -->
+<a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10" href="/services/it-consulting">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" ...>...</svg>
+    <h2 class="mt-4 text-xl font-bold text-white">IT-консалтинг</h2>
+    <p class="mt-1 text-sm text-gray-300">
+        Профессиональные консультации по оптимизации IT-процессов и интеграции новых технологий.
+    </p>
+</a>
+
+
+</section>
+
+{% endblock main %}
